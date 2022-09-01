@@ -3,7 +3,7 @@
 A program to automate Iterated Elimination of Dominated Strategies in game-theory analysis.
 
 This program takes in (on the command line) one or two matrices from CSV files, representing the payoff matrices for the game in question.
-If only one matrix given, then the game is assumed to be symmetrix (second matrix is transpose of the first).
+If only one matrix given, then the game is assumed to be symmetric (second matrix is transpose of the first).
 By default only strictly dominated strategies are eliminated; but switch -w can force elimination of weakly dominated strategies,
 and switch -v will force elimination of very weakly dominated strategies. 
 
